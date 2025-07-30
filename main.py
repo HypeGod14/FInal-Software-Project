@@ -34,7 +34,6 @@ class TramDirection:
 class TramCapicity:
     def __init__(self):
         self.TramCapicity = 400
-        self.Tram_sCars = 5
         self.Tram_sPeople = 0
         # Setting up  tram capacity, cars and number of people
 
@@ -43,9 +42,7 @@ class TramCapicity:
         # Limits the number of people to the tram's maximum
         # Source: https://www.w3schools.com/python/ref_func_min.asp
 
-    def Tram(self):
-        return self.Tram_sCars
-        # Returns number of cars in the tram
+
         
 class LightRailSystem:
     def __init__(self):
